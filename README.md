@@ -53,3 +53,11 @@ Feel free to customize this README according to your project's specific details 
 
 
 
+![Screenshot (34)](https://github.com/chandana042/marketbaseanalysis/assets/119003784/c4b4742b-51bf-4042-ba59-60f1bb11ecff)
+![image](https://github.com/chandana042/marketbaseanalysis/assets/119003784/4d9e169d-7cbe-4b76-b725-7e75c5d6f925)
+![Screenshot (dd)](https://github.com/chandana042/marketbaseanalysis/assets/119003784/dc3e2d59-49e8-4d69-acb7-c002ead45c21)
+![Screenshot (h)](https://github.com/chandana042/marketbaseanalysis/assets/119003784/e8bd1a46-e396-4960-b15f-038372698613)
+
+
+
+
