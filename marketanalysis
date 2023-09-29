@@ -5,6 +5,7 @@ from mlxtend.frequent_patterns import apriori
 from mlxtend.frequent_patterns import association_rules
 #Reading Data From Web
 #Data Cleaning
+
 myretaildata['Description'] = myretaildata['Description'].str.strip() #removes spaces from beginning and end
 myretaildata.dropna(axis=0, subset=['InvoiceNo'], inplace=True) #removes duplicate invoice
 myretaildata['InvoiceNo'] = myretaildata['InvoiceNo'].astype('str') #converting invoice number to be string
@@ -14,11 +15,14 @@ myretaildata.head()
 myretaildata['Country'].value_counts()
 #myretaildata.shape
 #Separating transactions for Germany
+
 mybasket = (myretaildata[myretaildata['Country'] =="Germany"]
           .groupby(['InvoiceNo', 'Description'])['Quantity']
           .sum().unstack().reset_index().fillna(0)
           .set_index('InvoiceNo'))
+
 #viewing transaction basket
+
 mybasket.head()
 #converting all positive vaues to 1 and everything else to 0
 def my_encode_units(x):
